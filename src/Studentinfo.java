@@ -11,10 +11,13 @@ public class Studentinfo {
 		System.out.print("학번 : ");
 		String hakbun = sc.nextLine();
 		
+		System.out.print("주소 : ");
+		String adress = sc.nextLine();	// 주소를 키보드로 입력받은걸 어드레스라는 변수에 넣겠다. 
+		
 		System.out.println("날짜 : "+today);
 		System.out.println("이름 : "+name);
 		System.out.println("학번 : "+hakbun);
-	
+		System.out.println("주소 : "+adress); 	//저장하면 깃 스테이지에 있는 워킹디렉토리에 하나가 뜬다. 
 		
 		
 	}
